@@ -15,9 +15,11 @@ Uploader.outputImage = function(imageUrl) {
 	output.appendChild(img);
 }
 
+Uploader
+
 Uploader.onFileUpload = function(imgurUrl) {
 
-	var proxiedUrl = imgurUrl.replace("i.imgur.com/", "kageurufu.net/imgur/?")
+	var proxiedUrl = imgurUrl.replace("i.imgur.com", "i.filmot.org")
 
 	Uploader.outputText("Your image has been uploaded to:");
 	Uploader.outputText(proxiedUrl);
